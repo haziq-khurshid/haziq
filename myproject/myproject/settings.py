@@ -20,7 +20,7 @@ DEBUG = True
 
 # アクセスを許可するホスト名(IPアドレス)
 # DEBUG = Falseの場合には設定が必要です
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # 内部IPアドレス一覧
 # django-debug-toolbar等で使います
